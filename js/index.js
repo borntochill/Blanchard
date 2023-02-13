@@ -208,9 +208,9 @@ document.addEventListener('DOMContentLoaded', function () {
       const tabpath = e.currentTarget.dataset.tabpath;
 
       tabsBtn.forEach(function (btn) {
-        btn.classList.remove('tabs-nav__btn--active')
+        btn.classList.remove('tabs-nav__link--active')
       });
-      e.currentTarget.classList.add('tabs-nav__btn--active');
+      e.currentTarget.classList.add('tabs-nav__link--active');
 
       tabsItem.forEach(function (element) {
         element.classList.remove('tabs__item--active')
